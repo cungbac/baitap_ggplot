@@ -6,6 +6,9 @@ library(ggplot2)
 #-----------------HISTOGRAM----------------#
 ## Basic ggplot2 histogram
 library(dplyr)
+library(ggplot2)
+
+
 data = data.frame(value=rnorm(10000))
 data
 head(data)
