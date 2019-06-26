@@ -5,7 +5,7 @@ library(ggplot2)
 #1. Nhu Y
 #-----------------HISTOGRAM----------------#
 ## Basic ggplot2 histogram
-library(ggplot2) ---
+library(dplyr)
 data = data.frame(value=rnorm(10000))
 data
 head(data)
