@@ -3,6 +3,10 @@
 library(ggplot2)
 
 #1. Nhu Y
+# this is to check what is conflict
+
+
+
 #-----------------HISTOGRAM----------------#
 ## Basic ggplot2 histogram
 library(ggplot2)
