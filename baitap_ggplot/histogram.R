@@ -32,7 +32,6 @@ library(ggplot2)
 
 
 #7. Cung Bac
-<<<<<<< HEAD
 ddata %>%
   filter( price<300 ) %>%
   ggplot( aes(x=price)) +
@@ -42,9 +41,6 @@ ddata %>%
   theme(
     plot.title = element_text(size=12)
   )
-
-=======
->>>>>>> 3aff99ab99bda9a8e541af0f6d194096488a911c
 
 
 
