@@ -3,8 +3,8 @@
 library(ggplot2)
 
 #1. Nhu Y
-
-
+mtcars
+str(mtcars)
 
 
 
