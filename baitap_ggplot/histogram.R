@@ -9,9 +9,11 @@ ggplot(mtcars, aes(x = wt)) +
   geom_histogram()
 
 
-
 #2. Thuy Hong
-
+mtcars
+str(mtcars)
+ggplot(mtcars, aes(x = wt)) +
+  geom_histogram()
 
 
 
