@@ -53,16 +53,6 @@ ggplot(data,aes(x=value)) +
 
 
 #7. Cung Bac
-data %>%
-  filter( price<300 ) %>%
-  ggplot( aes(x=price)) +
-  stat_bin(breaks=seq(0,300,10), fill="#69b3a2", color="#e9ecef", alpha=0.9) +
-  ggtitle("Night price distribution of Airbnb appartements") +
-  theme_ipsum() +
-  theme(
-    plot.title = element_text(size=12)
-  )
-
 
 
 
