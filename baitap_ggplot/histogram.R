@@ -5,6 +5,8 @@ library(ggplot2)
 #1. Nhu Y
 mtcars
 str(mtcars)
+ggplot(mtcars, aes(x = wt)) +
+  geom_histogram()
 
 
 
