@@ -16,11 +16,11 @@ ggplot(mtcars, aes(x = wt)) +
   geom_histogram()
 
 
-
-
 #3. Hong Lam
-
-
+iris
+str(iris)
+ggplot(iris,aes(x = Sepal.Length))+
+  geom_histogram(binwidth = 2)
 
 
 
