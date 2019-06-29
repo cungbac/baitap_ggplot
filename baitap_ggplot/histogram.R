@@ -1,8 +1,4 @@
 
-
-library(ggplot2)
-
-#1. Nhu Y
 #-----------------HISTOGRAM----------------#
 #====GGPLOT2====#
 ## Basic ggplot2 histogram
@@ -183,37 +179,6 @@ library(plotly)
 # Basic histogram of one vecotr only
 graph1=plot_ly(x = rnorm(500), type = "histogram")
 graph1
-
-
-#2. Thuy Hong
-
-
-
-
-#3. Hong Lam
-
-
-
-
-
-#4. Truong Han
-
-
-
-
-#5. Minh Ly
-
-
-
-#6. Hong Phuc
-
-
-
-
-#7. Cung Bac
-
-
-
 
 
 
