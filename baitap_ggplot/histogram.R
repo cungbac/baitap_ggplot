@@ -1256,9 +1256,26 @@ don = iris %>%
                             boxplot(b, xlab = 'b', col = rgb(0.4,0.2,0.3,0.5), las = 2)
                             
 
-#6. Hong Phuc
+#6. Cung Bac
+# Load dataset from github
+data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/1_OneNum.csv", header=TRUE)
+data                            
 
+data %>%
+  ggplot(aes(x=price)) +
+  stat_bin(breaks=seq(0,300,10), fill="#69b3a2", color="#e9ecef", alpha=0.9) +
+  ggtitle("Night price distribution of Airbnb appartements") +
+  theme_ipsum() +
+  theme(
+    plot.title = element_text(size=12))
+                            
+                            
+data %>%
+  filter(price < 300) %>%
+  ggplot( aes(x=price)) +
+  geom_density(fill="#69b3a2", color="#e9ecef", alpha=0.7, bw=10) +
+  ggtitle("Bandwidth: 10") +
+  theme_ipsum()
 
-
-
-#7. Cung Bac
+str(data)                            
+                            
