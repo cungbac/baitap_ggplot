@@ -1,6 +1,4 @@
-#Histogram hplm 
-test
-
+#Histogram 
 # ggplot2
 ## 220 Basic ggplot2 histogram
 ### library
