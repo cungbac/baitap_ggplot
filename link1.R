@@ -1,23 +1,4 @@
 
-# To load package:
-library(dplyr)
-library(readr)
-library(tidyverse)
-library(nycflights13)
-# Important Dplyr function to remember 7:
-##1 selec() _ selecting columns (variables)
-
-##2 filter() _ filter (subset) rows
-
-##3 group_by() _ Group by data
-
-##4 summarise() _ summarise data
-
-##5 arrnge() _ sort data
-
-##6 join() _ Joining data frame(table)
-
-##7 mutae() _ creating new variables
 
 # Import data 
 mydata = read.csv("sampledata.csv")
