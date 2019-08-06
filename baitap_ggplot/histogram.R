@@ -1,5 +1,8 @@
 #this is bac-branch
 
+#test git vs Rstudio
+#test them lan nua
+
 library(ggplot2)
 
 #1. Nhu Y
@@ -38,6 +41,7 @@ don = iris %>%
   mutate(var_rounded = (Sepal.Length+1) - ((Sepal.Length+1) %% 0.2)) %>%
   mutate(y=ave(var_rounded,var_rounded,FUN = seq_along)) #de tinh toan vi tri tren truc Y
 ?ave
+don
 
 # Make the plot 
 ggplot(don, aes(x=var_rounded, y=y)) +
@@ -89,7 +93,7 @@ plot2
 
 plot3 = plot1+
   theme_classic()+ #mat o ly va mat duong line 
-  annotate("text", x = -1.9, y = 75, label = "classic()" , col="orange" , size=5)
+  annotate("text", x = 2, y = 75, label = "classic()" , col="orange" , size=5)
 plot3
 
 plot4 = plot1+
