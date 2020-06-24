@@ -4,4 +4,5 @@ pls reade guidance as below
 2. input your codes
 3. commit to local repo
 4. push to remote
+5. git pull
 5. next person do the same
