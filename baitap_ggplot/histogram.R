@@ -1462,10 +1462,5 @@ graph
 ## 111 interactive 3D plot| plotly
 ###Plotly library
 library(plotly)
-
-### Let's use the volcano dataset
-head(volcano)
-
-### 3D plot
-p= plot_ly(z= volcano, type = "surface")
-p             
+#7. Cung Bac
+#Duong is testing
